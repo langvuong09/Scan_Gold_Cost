@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="stylo.css">
+
+</head>
+
+<body>
+
+<h1>Gold Price Data</h1>
+
+<h2>Today's Prices</h2>
+<div>
+  {{ today_table | safe }}
+</div>
+
+<h2>History (sample)</h2>
+<div>
+  {{ history_table | safe }}
+</div>
+
+<p>
+  <a href="/history">View full history table</a>
+</p>
+
+</body>
+
+</html>
